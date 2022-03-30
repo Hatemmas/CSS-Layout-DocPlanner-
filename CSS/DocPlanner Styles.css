@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap");
+.logo {
+  width: 268px;
+  height: 33px;
+  margin-right: 420px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.mainMenu {
+  list-style: none;
+  display: flex;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.mainMenu a {
+  color: #ababab;
+  display: flex;
+  text-align: left;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.mainMenu a:hover {
+  color: #00bfa5;
+}
+
+.mainMenu li {
+  display: flex;
+}
+
+.dropMenu {
+  padding-left: 0;
+}
+
+.dropDownContent {
+  display: none;
+  padding-top: 10px;
+  margin-top: 30px;
+  position: absolute;
+  width: 220px;
+  margin-left: -100px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+}
+
+.dropDownContent a,
+.dropDownContent li {
+  display: block;
+  width: 220px;
+}
+
+.dropDownContent a {
+  color: #ababab;
+  line-height: 120%;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropDown:hover .dropDownContent a:hover {
+  background-color: #f6f8f8;
+}
+
+.dropDown:hover .dropDownContent {
+  display: block;
+}
+
+.intro {
+  padding-top: 115px;
+  margin-top: -20px;
+}
+
+.sectionLogo {
+  display: block;
+  margin: 0 auto;
+}
+
+.intro h1 {
+  text-align: center;
+  font-size: 33px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  color: #00bfa5;
+  margin-top: 40px;
+  margin-bottom: 45px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #747474;
+  width: 500px;
+  padding: 0 15px;
+  padding-top: 20px;
+}
+
+#boxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box-1 {
+  background-color: #00ccb1;
+  height: 345px;
+  width: 310px;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.box-2 {
+  background-color: #3d83df;
+  height: 345px;
+  width: 310px;
+  border-radius: 10px;
+}
+
+.box-3 {
+  background-color: #1b2734;
+  height: 345px;
+  width: 310px;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.box-1:hover {
+  opacity: 0.9;
+}
+
+.box-2:hover {
+  opacity: 0.9;
+}
+
+.box-3:hover {
+  opacity: 0.9;
+}
+
+.input {
+  padding: 30px 30px;
+}
+
+.input h1 {
+  font-family: "Work Sans", arial, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #ffff;
+  line-height: 33.8px;
+  margin: 0;
+}
+
+.input h2 {
+  font-family: "Work Sans", arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.8px;
+  color: #ffff;
+  margin-top: 10px;
+}
+
+.optionBox {
+  padding-left: 30px;
+  padding-top: 30px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 19.2px;
+  font-weight: 400;
+}
+
+.optionBox1 {
+  padding: 10px 0;
+}
+
+select {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 19.2px;
+  color: #ffff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+option {
+  color: black;
+}
+
+.brandsSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 460px;
+  height: 180px;
+  padding-top: 40px;
+  max-width: 1000px;
+}
+
+.title {
+  height: 100px;
+}
+
+.title h1 {
+  font-family: "Work Sans", arial, sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 33.8px;
+  color: rgb(0, 179, 155);
+  width: 300px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.brandsLogos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+  height: 120px;
+}
+
+.brandsLogos li {
+  margin: 0 5px;
+}
+
+.localBrands {
+  transform: scale(0.6);
+  width: 139px;
+  height: 30px;
+  margin-left: -8px;
+  filter: opacity(0.2);
+}
+
+.brandsLogos img {
+  filter: grayscale(1) opacity(0.7);
+}
+
+.brandsLogos img:hover {
+  filter: none;
+}
+.localBrands:hover {
+  filter: invert(57%) sepia(90%) saturate(1046%) hue-rotate(126deg)
+    brightness(93%) contrast(101%);
+}
+
+.dashBoard {
+  height: 600px;
+  background-color: #d5f6f5;
+  background-image: url("/res/background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.dashBoardTitle {
+  height: 200px;
+  width: 497.5px;
+  padding-top: 50px;
+}
+
+.dashBoardTitle h1 {
+  font-family: "Work Sans", arial, sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 44px;
+  color: #00bfa5;
+}
+
+.dashBoardTitle p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(116, 116, 116);
+  width: 415px;
+}
+.dbBoxContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 540px;
+  width: 500px;
+  margin-top: 50px;
+}
+
+.dbBox {
+  height: 250px;
+  width: 229px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.dbBox h1 {
+  font-family: "Work Sans", arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  line-height: 31.2px;
+  color: #00bfa5;
+}
+
+.dbBox p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16.9px;
+  color: rgb(116, 116, 116);
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+
+#dbBox1 img {
+  margin-top: 20px;
+}
+
+#dbBox2 img {
+  margin-top: 50px;
+}
+
+#dbBox3 img {
+  margin-top: 50px;
+}
+
+#dbBox4 img {
+  margin-top: 50px;
+}
+
+#dbBox2 {
+  position: relative;
+  bottom: 30px;
+}
+
+#dbBox4 {
+  position: relative;
+  bottom: 30px;
+}
+
+.jobsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 930px;
+  margin: auto;
+}
+
+.jobsTitle {
+  text-align: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.jobsTitle h1 {
+  font-family: "Work Sans", arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 39px;
+  color: #00bfa5;
+}
+
+.jobsTitle p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(116, 116, 116);
+  width: 460px;
+  margin: 0 230px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.card {
+  margin: 11px 11px;
+  border-color: #f5f5f5;
+  transition-duration: 400ms;
+}
+
+.card:hover {
+  box-shadow: -5px 5px 50px #d3d3d3;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-body a {
+  font-size: 10px;
+  font-weight: 700;
+  height: 30px;
+  width: 103px;
+  text-transform: uppercase;
+  background-color: #3d83df;
+}
+
+.card-body h5 {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(116, 116, 116);
+}
+
+.jobsFooterContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.jobsFooter {
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.jobsFooter p {
+  font-family: "Work Sans", arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 39px;
+}
+
+.jobsFooter a {
+  margin-left: 120px;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #3d83df;
+}
+
+footer {
+  border-top: rgb(241, 241, 241) solid 1px;
+  padding: 20px 10%;
+}
+
+.footer {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: rgb(171, 171, 171);
+  font-size: 12px;
+}
